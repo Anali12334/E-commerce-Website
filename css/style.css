@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(146, 137, 137);
+  }
+  .jumbotron {
+    background: url('path/to/home-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-nav-link {
+    color: rgb(244, 239, 239);
+    background-color: rgba(225, 236, 31, 0.5); 
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  .custom-nav-link:hover {
+    background-color: rgba(255, 192, 203, 0.7); 
+  }
+  @media (max-width: 1199px) {
+    .header {
+      left: -100%;
+    }
+  }
+  
